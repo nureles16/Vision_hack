@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import {ModalComponent} from "../modal/modal.component";
 import {DialogComponent} from "../dialog/dialog.component";
 
 @Component({
@@ -16,14 +15,6 @@ export class ProfileComponent {
   openModal() {
     this.dialog.open(DialogComponent,{
       width: '350px',
-    })
-    /*
-    this.dialog.open(ModalComponent,{
-      width:'350px',
-      position:{
-        top:"-50%",
-        left:'35%',
-      }
-    });*/
+    });
   }
 }
