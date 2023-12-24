@@ -1,0 +1,21 @@
+.image{
+  border: 1px solid black;
+}
+/* Default styles */
+.step {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .step {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.card{
+  height: 95%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
